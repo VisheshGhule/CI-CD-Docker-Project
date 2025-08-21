@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 const host = '0.0.0.0';
 
 app.get('/', (req, res) => {
-  res.status(200).json({ message: 'Hello I'm Vishesh a DevOps engineer' });
+  res.status(200).json({ message: "Hello I'm Vishesh a DevOps engineer" });
 });
 
 app.get('/healthz', (req, res) => {
