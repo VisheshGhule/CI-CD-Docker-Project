@@ -50,6 +50,14 @@ jobs:
           docker stop myapp || true
           docker rm myapp || true
 
+          echo "Freeing up port 3000 if in use..."
+          CONTAINER_ID=$(docker ps -q --filter "publish=3000")
+          if [ ! -z "$CONTAINER_ID" ]; then
+            echo "Another container is using port 3000. Stopping it..."
+            docker stop $CONTAINER_ID || true
+            docker rm $CONTAINER_ID || true
+          fi
+
           echo "Pulling latest image..."
           docker pull ${{ steps.meta.outputs.tags }}
 
