@@ -5,11 +5,21 @@
 ---
 
 ### Tech Stack
-- Containerization: Docker, Docker Compose
-- CI/CD: GitHub Actions
-- Registry: Docker Hub
-- Version Control: Git & GitHub
-- Deploy: Local VM
+- GitHub Actions – For CI/CD automation.
+- Docker – Containerization platform.
+- Docker Hub (Free) – To store and distribute container images.
+- Local VM – For local deployment.
+
+---
+
+### Workflow Overview
+
+1. Dockerize the App – Write a Dockerfile and docker-compose.yml.
+2. CI/CD Setup – Configure GitHub Actions to:
+   - Run tests.
+   - Build the Docker image.
+   - Push the image to Docker Hub.
+3. Local Deployment – Pull and run the image in a local VM.
 
 ---
 
