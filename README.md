@@ -19,7 +19,7 @@
    - Run tests.
    - Build the Docker image.
    - Push the image to Docker Hub.
-3. Local Deployment – Pull and run the image in a local VM.
+3. Local Deployment – Run the image in a local VM.
 
 ---
 
