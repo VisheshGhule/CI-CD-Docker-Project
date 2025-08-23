@@ -89,7 +89,11 @@
 ### Check on browser `localhost:3000`
 <img width="573" height="137" alt="10" src="https://github.com/user-attachments/assets/e6848556-3086-40b3-aa4c-8fac14d31825" />
 
+<br><br>
 
+---
+📘 **Read the full step-by-step blog here:**  
+[Building a CI-CD Pipeline with Docker & Github Actions](https://visheshblog.hashnode.dev/day-63-building-a-ci-cd-pipeline-with-docker-and-github-actions)
 
 
 
